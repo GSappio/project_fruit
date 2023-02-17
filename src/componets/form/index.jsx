@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import Botao from "../botao";
 import './index.css';
 
 
@@ -7,11 +7,12 @@ import './index.css';
 export default function Form() {
     return(
         <div className="tbody-form">
-        <h1 className="h1-form">Ofertas da Semana</h1>
         <div>
-        <Link to="/produtos" className="link-produtos">CONFIRA</Link>
+        <h1 className="h1-form">Conheça nossos produtos</h1>
+        <Botao />
         </div>
-        </div> 
+        </div>
+        
     
     )
 }
